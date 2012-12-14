@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="evolve_vs_expert/NeuralNetworkPlayer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="evolve_vs_expert/Main.cs">
     <Files>
-      <File FileName="evolve_vs_expert/Main.cs" Line="19" Column="17" />
+      <File FileName="evolve_vs_expert/Main.cs" Line="12" Column="4" />
       <File FileName="../pokerdemo/wekabot/Program.cs" Line="74" Column="35" />
       <File FileName="evolve_vs_expert/WekaPlayer.cs" Line="13" Column="10" />
       <File FileName="../holdem_engine/holdem_engine/HandEngine.cs" Line="84" Column="91" />
@@ -15,7 +15,7 @@
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="evolve_vs_expert" expanded="True">
-            <Node name="NeuralNetworkPlayer.cs" selected="True" />
+            <Node name="Main.cs" selected="True" />
           </Node>
         </State>
       </Pad>

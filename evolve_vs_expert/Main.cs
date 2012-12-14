@@ -16,7 +16,7 @@ namespace evolve_vs_expert
 //			return;
 
 			int argIdx = 0;
-			int hands = 100;// int.Parse(args[argIdx++]);
+			int hands = 10000;// int.Parse(args[argIdx++]);
 			int numPlayers = 6; //int.Parse(args[argIdx++]);
 
 			string neuralnetPath = args[argIdx++]; //Path.GetFullPath(@"./models/sample.network");
