@@ -9,7 +9,7 @@ for gens in range(100):
     X = es.ask()
     print 'Creating condor jobs'
     fit = np.array(condor.run_jobs(41, [25, 10], X))
-    print 'Telling fitness'
+    print 'Telling fitness. Min: {0}'.format(min(fit))
     es.tell(X, fit)  # prepare for next iteration
     #es.sigma *= nh(X, fit, func, es.ask)  # see method __call__
     #es.countevals += nh.evaluations_just_done  # this is a hack, not important though

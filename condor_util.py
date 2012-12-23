@@ -87,10 +87,10 @@ class Condor(object):
         return results
 
     def save_champion(self, inputs, hidden, candidate_weights, results):
-        max_score = results[0]
+        min_score = results[0]
         champion = candidate_weights[0]
         for i,w in enumerate(candidate_weights):
-            if(results[i] > max_score):
-                max_score = results[i]
+            if(results[i] < min_score):
+                min_score = results[i]
                 champion = w
         self.write_network(inputs, hidden, champion, self.champions_format.format(self.generations))
